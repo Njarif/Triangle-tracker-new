@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TRIANGLE TRACKER</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="triangle.js"></script>
+</head>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+<body background="images/math-wallpaper.jpg">
+  <div class="container">
+
+    <h1><u>TRIANGLE TRACKER</u></h1>
+    <p><strong> This website will describe the type of triangle when you input your values.</strong></p>
+    <p><strong>Please provide 3 values <span class="numbers">(numbers only)</span> to the following 3 fields, and "Submit" your values for results.</strong></p><br>
+    <form action="index.html">
+      <p>Enter value x:<br>
+        <input type="number" name="VALUEx" max="100" min="1" id="Valuex"><br></p>
+      <p>Enter value y:<br>
+        <input type="number" name="VALUEy" max="100" min="1" id="Valuey"><br></p>
+      <p>Enter value z:<br>
+        <input type="number" name="VALUEz" max="100" min="1" id="Valuez"><br><br></p>
+      <button type="button" onclick="triangletracker()">results</button>
+      <button type="reset"> reset</button><br><br><br>
+      <output name="output" id="output" readonly></output>
+    </form>
+    <h2><u>Triangle facts, theorems, and laws</u></h2><br>
+    <div>
+      <ul>
+        <li>The sum of the lengths of any two sides of a triangle is always larger than the length of the third side.</li>
+        <li>Triangles are becoming used more in construction. They are harder to use than rectangles, but can be stronger and may be more resistant to earthquakes.</li>
+        <li>If you draw a line in a rectangle from far corner to corner you cut the rectangle into two right triangles.</li>
+        <li>If you know two of the angles in a triangle, you can always figure out the third because they must add up to 180 degrees.</li>
+        <li>The sum of the lengths of any two sides of a triangle is always longer than the third side.</li>
+        <li>The triangle and two is a type of defense used in basketball.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
